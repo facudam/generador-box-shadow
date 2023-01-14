@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="index.css">
+    <title>Box Shadow Generator</title>
+</head>
+<body>
+    <h1>Box Shadow Generator</h1>
+    <p class="p-title">Modifícalo a tu gusto, copia el código y añádeselo a tu proyecto ¡Así de fácil!</p>
+
+    <div class="main-container">
+        <div class="main-container__box"></div>
+        <div class="main-container__controls">
+
+            <div class="controls">
+                <label for="horizontal">horizontal:</label>
+                <input name="horizontal" id="horizontal" type="range" min="-300" max="300" value="2">
+            </div>
+            <div class="controls">
+                <label for="vertical">Vertical:</label>
+                <input name="vertical" id="vertical" type="range" min="-300" max="300" value="2">
+            </div>
+            <div class="controls">
+                <label for="blur-radius">Blur Radius:</label>
+                <input name="blur-radius" id="blur-radius" type="range" min="-300" max="300" value="10">
+            </div>
+            <div class="controls">
+                <label for="spread-radius">Spread Radius:</label>
+                <input name="spread-radius" id="spread-radius" type="range" min="-300" max="300" value="2">
+            </div>
+            <div class="controls color">
+                <label for="color">Color:</label>
+                <input name="color" id="color" type="color">
+            </div>
+            <div class="code-container">
+                <p class="code-container__p">box-shadow: 2px 2px 10px 2px #000;</p>
+            </div>
+                  
+
+        </div>
+    </div>
+    
+    <script src="index.js" type="module"></script>
+</body>
+</html>
