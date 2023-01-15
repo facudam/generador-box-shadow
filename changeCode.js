@@ -10,7 +10,7 @@ export const changeCode = (codeContainer, hShadow, vShadow, blurRadius, spreadRa
             spread = document.getElementById(spreadRadius),
             color = document.getElementById(colorShadow);
         
-            let cssCode = `box-shadow: ${horizontal.value}px ${vertical.value}px ${blur.value}px ${spread.value}px ${color.value}`
+            let cssCode = `box-shadow: ${horizontal.value}px ${vertical.value}px ${blur.value}px ${spread.value}px ${color.value};`
 
         if (e.target === horizontal || e.target === vertical || e.target === blur || e.target === spread || e.target === color) {
             contenedor.innerHTML = cssCode;
