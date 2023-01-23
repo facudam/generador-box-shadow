@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
     margin: 0;
@@ -8,26 +9,32 @@
 
 body {
     background-color: #f5f6f7;
-    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 h1 {
-    width: 400px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
     font-size: 2.3rem;
     margin: auto;
     margin-top: 25px;
     text-align: center;
-    color: rgb(238, 47, 47);
+    color: rgb(220, 17, 17);
     text-shadow: 1px 1px 1px black;
-    border-bottom: 2px solid rgb(238, 47, 47);
+    
     
 }
 
 .p-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
     margin-top: 15px;
     font-weight: bold;
+}
+
+main {
+    background-color: rgb(78, 133, 182);
+    width: 100%;
 }
 
 .main-container {
@@ -35,21 +42,20 @@ h1 {
     width: 100%;
     max-width: 1400px;
     margin: auto;
-    margin-top: 25px;
-    background-color: rgb(164, 201, 234);
+    margin-top: 35px;
     min-height: 80vh;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px; 
+    gap: 25px; 
     padding: 25px 15px;
 }
 
 .main-container__box {
     width: 300px;
     height: 400px;
-    background-color: rgb(19, 105, 181);
-    box-shadow: 2px 2px 10px 2px #000;
+    background-color: #c9bc2c;
+    box-shadow: 2px 2px 10px 2px #000000;
 }
 
 .controls {
@@ -70,8 +76,8 @@ label {
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 1px 1px #000;
+    color: rgb(254, 254, 254);
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
 }
 
 .code-container {
